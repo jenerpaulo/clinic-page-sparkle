@@ -4,6 +4,7 @@ import ImplantBenefits from "@/components/ImplantBenefits";
 import ImplantProcess from "@/components/ImplantProcess";
 import ImplantFAQ from "@/components/ImplantFAQ";
 import ImplantCTA from "@/components/ImplantCTA";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const Index = () => {
   useEffect(() => {
@@ -39,6 +40,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <LanguageSwitcher currentLang="en" />
       {/* SEO Meta tags handled in index.html */}
       <main>
         <ImplantsHero />
