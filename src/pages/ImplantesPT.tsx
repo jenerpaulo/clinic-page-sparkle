@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import ImplantsHeroPT from "@/components/pt/ImplantsHeroPT";
 import ImplantBenefitsPT from "@/components/pt/ImplantBenefitsPT";
 import ImplantProcessPT from "@/components/pt/ImplantProcessPT";
+import ImplantTechniquesPT from "@/components/pt/ImplantTechniquesPT";
 import ImplantFAQPT from "@/components/pt/ImplantFAQPT";
 import ImplantCTAPT from "@/components/pt/ImplantCTAPT";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -54,6 +55,7 @@ const ImplantesPT = () => {
         <ImplantsHeroPT />
         <ImplantBenefitsPT />
         <ImplantProcessPT />
+        <ImplantTechniquesPT />
         <ImplantFAQPT />
         <ImplantCTAPT />
       </main>

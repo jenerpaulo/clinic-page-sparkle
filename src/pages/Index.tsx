@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import ImplantsHero from "@/components/ImplantsHero";
 import ImplantBenefits from "@/components/ImplantBenefits";
 import ImplantProcess from "@/components/ImplantProcess";
+import ImplantTechniques from "@/components/ImplantTechniques";
 import ImplantFAQ from "@/components/ImplantFAQ";
 import ImplantCTA from "@/components/ImplantCTA";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -46,6 +47,7 @@ const Index = () => {
         <ImplantsHero />
         <ImplantBenefits />
         <ImplantProcess />
+        <ImplantTechniques />
         <ImplantFAQ />
         <ImplantCTA />
       </main>
