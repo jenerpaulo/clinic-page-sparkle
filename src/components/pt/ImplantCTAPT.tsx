@@ -22,8 +22,8 @@ const ImplantCTAPT = () => {
               <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="h-6 w-6 text-primary-foreground" />
               </div>
-              <h3 className="font-semibold text-primary-foreground mb-2">Ligue para Nós</h3>
-              <p className="text-primary-foreground/80 text-sm">(11) 3456-7890</p>
+              <h3 className="font-semibold text-primary-foreground mb-2">Fale com a Gente</h3>
+              <p className="text-primary-foreground/80 text-sm">	(12) 9 9642-6196</p>
             </CardContent>
           </Card>
           
@@ -32,8 +32,10 @@ const ImplantCTAPT = () => {
               <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Calendar className="h-6 w-6 text-primary-foreground" />
               </div>
-              <h3 className="font-semibold text-primary-foreground mb-2">Agende Online</h3>
-              <p className="text-primary-foreground/80 text-sm">Agendamento 24/7</p>
+              <h3 className="font-semibold text-primary-foreground mb-2">Agende no WhatsApp</h3>
+              <a href="https://2ly.link/27vTG" target="_blank" rel="noopener noreferrer">
+  <p className="text-primary-foreground/80 text-sm">Agende Agora</p>
+</a>
             </CardContent>
           </Card>
           
@@ -43,7 +45,7 @@ const ImplantCTAPT = () => {
                 <MapPin className="h-6 w-6 text-primary-foreground" />
               </div>
               <h3 className="font-semibold text-primary-foreground mb-2">Visite-nos</h3>
-              <p className="text-primary-foreground/80 text-sm">Centro da Cidade</p>
+              <p className="text-primary-foreground/80 text-sm">Bairro Independência </p>
             </CardContent>
           </Card>
         </div>
@@ -56,7 +58,7 @@ const ImplantCTAPT = () => {
             Agende Sua Consulta
           </Button>
           <p className="text-primary-foreground/80 text-sm mt-4">
-            Consulta gratuita • Convênios aceitos • Financiamento disponível
+            Consulta inicial gratuita • Pagamento facilitado
           </p>
         </div>
       </div>
