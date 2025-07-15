@@ -34,7 +34,7 @@ const ImplantProcessPT = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            O Processo do Implante
+            O Processo do seu Implante Dentário em Taubaté
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Nossa abordagem simplificada e focada no paciente garante uma experiência confortável 
@@ -74,7 +74,7 @@ const ImplantProcessPT = () => {
         <div className="mt-12 text-center">
           <div className="inline-flex items-center gap-2 bg-accent px-6 py-3 rounded-full">
             <Clock className="h-5 w-5 text-primary" />
-            <span className="text-foreground font-medium">Tempo Total de Tratamento: 4-8 meses</span>
+            <span className="text-foreground font-medium">Tempo Total de Tratamento varias de acordo com o método escolhido.</span>
           </div>
         </div>
       </div>
