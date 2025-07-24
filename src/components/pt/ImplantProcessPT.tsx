@@ -49,12 +49,12 @@ const ImplantProcessPT = () => {
               <Card key={index} className="relative bg-card border-0 shadow-card hover:shadow-soft transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="absolute -top-4 left-6">
-                    <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">
+                    <div className="w-8 h-8 bg-gradient-accent text-accent-foreground rounded-full flex items-center justify-center text-sm font-bold shadow-lg">
                       {step.step}
                     </div>
                   </div>
                   
-                  <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-4 mt-2">
+                  <div className="w-12 h-12 bg-gradient-to-br from-accent/20 to-primary/10 rounded-lg flex items-center justify-center mb-4 mt-2">
                     <IconComponent className="h-6 w-6 text-primary" />
                   </div>
                   

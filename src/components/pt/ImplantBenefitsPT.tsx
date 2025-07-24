@@ -26,7 +26,7 @@ const ImplantBenefitsPT = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-muted/50">
+    <section className="py-16 px-4 bg-gradient-to-br from-teal-light/10 to-accent/5">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
@@ -42,10 +42,10 @@ const ImplantBenefitsPT = () => {
           {benefits.map((benefit, index) => {
             const IconComponent = benefit.icon;
             return (
-              <Card key={index} className="bg-card hover:shadow-card transition-all duration-300 border-0 shadow-soft">
+              <Card key={index} className="bg-card hover:shadow-card hover:border-accent/20 transition-all duration-300 border group hover:scale-105">
                 <CardContent className="p-6 text-center">
-                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="h-8 w-8 text-primary" />
+                  <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <IconComponent className="h-8 w-8 text-accent-foreground" />
                   </div>
                   <h3 className="text-xl font-semibold text-card-foreground mb-3">
                     {benefit.title}

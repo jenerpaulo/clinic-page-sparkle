@@ -38,9 +38,9 @@ const ImplantTechniquesPT = () => {
 
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
           {techniques.map((technique, index) => (
-            <Card key={index} className="border border-border/50 hover:shadow-lg transition-shadow duration-300">
+            <Card key={index} className="border border-border/50 hover:shadow-lg hover:border-accent/50 transition-all duration-300 group">
               <CardHeader>
-                <CardTitle className="text-xl font-semibold text-foreground">
+                <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300">
                   {technique.title}
                 </CardTitle>
               </CardHeader>
@@ -48,7 +48,7 @@ const ImplantTechniquesPT = () => {
                 <CardDescription className="text-muted-foreground mb-6 leading-relaxed">
                   {technique.description}
                 </CardDescription>
-                <Button variant="outline" className="w-full">
+                <Button variant="outline" className="w-full border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300">
                   Saiba mais
                 </Button>
               </CardContent>

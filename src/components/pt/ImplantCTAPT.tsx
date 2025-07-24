@@ -53,7 +53,7 @@ const ImplantCTAPT = () => {
         <div className="text-center">
           <Button 
             size="lg" 
-            className="bg-white text-primary hover:bg-white/90 px-8 py-3 text-lg font-semibold"
+            className="bg-white text-primary hover:bg-accent hover:text-accent-foreground hover:scale-105 px-8 py-3 text-lg font-semibold transition-all duration-300 shadow-lg"
           >
             Agende Sua Consulta
           </Button>

@@ -60,6 +60,8 @@ export default {
 				'soft-gray': 'hsl(var(--soft-gray))',
 				'warm-white': 'hsl(var(--warm-white))',
 				'professional-blue': 'hsl(var(--professional-blue))',
+				'teal-light': 'hsl(var(--teal-light))',
+				'teal-dark': 'hsl(var(--teal-dark))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -110,7 +112,9 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-cream': 'var(--gradient-cream)',
-				'gradient-professional': 'var(--gradient-professional)'
+				'gradient-professional': 'var(--gradient-professional)',
+				'gradient-teal': 'var(--gradient-teal)',
+				'gradient-accent': 'var(--gradient-accent)'
 			},
 			boxShadow: {
 				'soft': 'var(--shadow-soft)',
