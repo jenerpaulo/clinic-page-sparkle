@@ -26,7 +26,7 @@ const ImplantBenefitsPT = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-teal-light/10 to-accent/5">
+    <section className="py-16 px-4" style={{backgroundColor: '#a6d7e0'}}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">

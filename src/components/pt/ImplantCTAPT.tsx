@@ -4,7 +4,7 @@ import { Phone, Calendar, MapPin } from "lucide-react";
 
 const ImplantCTAPT = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-professional">
+    <section className="py-16 px-4" style={{backgroundColor: '#a6d7e0'}}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-primary-foreground mb-4">
