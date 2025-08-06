@@ -34,7 +34,7 @@ const ImplantsHeroPT = () => {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-5 w-5 text-primary" />
-                <span className="text-sm text-foreground">Garantia Qualidade</span>
+                <span className="text-sm text-foreground">Protocolos Modernos</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-5 w-5 text-primary" />
