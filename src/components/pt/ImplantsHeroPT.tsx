@@ -9,8 +9,7 @@ const ImplantsHeroPT = () => {
           {/* Content */}
           <div className="space-y-6 animate-fade-in">
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-              Restaure Seu Sorriso com 
-              <span className="text-primary block">Implantes Dentários</span>
+              <span className="text-primary block"> O Melhor Implante Dentário</span> Em Taubaté.
             </h1>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
