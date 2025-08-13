@@ -18,12 +18,12 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 15% 15%;
 
-    /* Modern teal primary - inspired by clinic site */
-    --primary: 180 65% 45%;
-    --primary-foreground: 0 0% 98%;
+    /* Modern teal primary - using #a6d7e0 base */
+    --primary: 187 45% 69%;
+    --primary-foreground: 0 0% 15%;
 
     /* Light teal background */
-    --secondary: 180 20% 96%;
+    --secondary: 187 30% 95%;
     --secondary-foreground: 215 15% 15%;
 
     /* Light gray for subtle sections */
@@ -31,8 +31,8 @@ All colors MUST be HSL.
     --muted-foreground: 215 10% 45%;
 
     /* Vibrant teal accent */
-    --accent: 180 85% 60%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 187 55% 75%;
+    --accent-foreground: 0 0% 15%;
 
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 98%;
@@ -46,9 +46,9 @@ All colors MUST be HSL.
     --cream-dark: 45 20% 90%;
     --soft-gray: 220 10% 92%;
     --warm-white: 40 10% 98%;
-    --professional-blue: 180 65% 45%;
-    --teal-light: 180 85% 60%;
-    --teal-dark: 180 65% 35%;
+    --professional-blue: 187 45% 69%;
+    --teal-light: 187 55% 75%;
+    --teal-dark: 187 45% 55%;
     
     /* Modern gradients for hero sections */
     --gradient-cream: linear-gradient(135deg, hsl(var(--warm-white)), hsl(var(--cream)));
