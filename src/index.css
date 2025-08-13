@@ -18,20 +18,20 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 15% 15%;
 
-    /* Modern teal primary - using #a6d7e0 base */
-    --primary: 187 45% 69%;
+    /* Modern blue primary - using #89B9FF base */
+    --primary: 213 100% 77%;
     --primary-foreground: 0 0% 15%;
 
-    /* Light teal background */
-    --secondary: 187 30% 95%;
+    /* Light blue background */
+    --secondary: 213 50% 95%;
     --secondary-foreground: 215 15% 15%;
 
     /* Light gray for subtle sections */
     --muted: 220 10% 95%;
     --muted-foreground: 215 10% 45%;
 
-    /* Vibrant teal accent */
-    --accent: 187 55% 75%;
+    /* Vibrant blue accent */
+    --accent: 213 100% 82%;
     --accent-foreground: 0 0% 15%;
 
     --destructive: 0 75% 55%;
@@ -46,15 +46,15 @@ All colors MUST be HSL.
     --cream-dark: 45 20% 90%;
     --soft-gray: 220 10% 92%;
     --warm-white: 40 10% 98%;
-    --professional-blue: 187 45% 69%;
-    --teal-light: 187 55% 75%;
-    --teal-dark: 187 45% 55%;
+    --professional-blue: 213 100% 77%;
+    --blue-light: 213 100% 82%;
+    --blue-dark: 219 65% 17%;
     
     /* Modern gradients for hero sections */
     --gradient-cream: linear-gradient(135deg, hsl(var(--warm-white)), hsl(var(--cream)));
-    --gradient-professional: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--teal-light)));
-    --gradient-teal: linear-gradient(135deg, hsl(var(--teal-light)), hsl(var(--primary)));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--teal-dark)));
+    --gradient-professional: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--blue-light)));
+    --gradient-blue: linear-gradient(135deg, hsl(var(--blue-light)), hsl(var(--primary)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--blue-dark)));
     
     /* Shadows for depth */
     --shadow-soft: 0 4px 20px hsl(var(--professional-blue) / 0.08);
