@@ -3,6 +3,7 @@ import ImplantsHeroPT from "@/components/pt/ImplantsHeroPT";
 import ImplantBenefitsPT from "@/components/pt/ImplantBenefitsPT";
 import ImplantProcessPT from "@/components/pt/ImplantProcessPT";
 import ImplantTechniquesPT from "@/components/pt/ImplantTechniquesPT";
+import ImplantCasesPT from "@/components/pt/ImplantCasesPT";
 import ImplantFAQPT from "@/components/pt/ImplantFAQPT";
 import ImplantCTAPT from "@/components/pt/ImplantCTAPT";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -56,6 +57,7 @@ const ImplantesPT = () => {
         <ImplantBenefitsPT />
         <ImplantProcessPT />
         <ImplantTechniquesPT />
+        <ImplantCasesPT />
         <ImplantFAQPT />
         <ImplantCTAPT />
       </main>
